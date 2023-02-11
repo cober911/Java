@@ -2,6 +2,7 @@ package HomeWork.DZ_4;
 import java.util.LinkedList;
 
 public class dz1 {
+    // Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет “перевернутый” список.
     public static void ReversLinkedList(LinkedList<Integer> ll) {
         System.out.print("Перевёрнутый список -> [");
         for (int i = ll.size() - 1; i >= 1; i--) {
