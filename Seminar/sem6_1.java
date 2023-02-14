@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.TreeSet;
 
 
-public class sem6 {
+public class sem6_1 {
     public static void main(String[] args) {
         // Integer[] arr = {1, 2, 4, 5, 3, 2, 4, 5, 6, 3};
         // HashSet<Integer> set1 = new HashSet<>(Arrays.asList(arr));
@@ -30,16 +30,16 @@ public class sem6 {
         //     System.out.print(iterator3.next() + " ");
         // }
 
-        Card Barsic = new Cat();
+        sem6_2 Barsic = new sem6_2();
         Barsic.name = "Barsik";
         //Barsic.Print();
-        Cat Pushok = new Cat("Pushok", "Black");
-        Cat PushokCopy = new Cat("Pushok", "Black");
+        sem6_2 Pushok = new sem6_2("Pushok", "Black");
+        sem6_2 PushokCopy = new sem6_2("Pushok", "Black");
         //Pushok.Print();
         //System.out.println(Barsic.equals(Pushok));
-        HashSet<Cat> setCats = new HashSet<>(Arrays.asList(Barsic, Pushok, PushokCopy)); 
-        for (Cat cat : setCats) {
-            cat.Print();
+        HashSet<sem6_2> setsem6_2s = new HashSet<>(Arrays.asList(Barsic, Pushok, PushokCopy)); 
+        for (sem6_2 sem6_2 : setsem6_2s) {
+            sem6_2.Print();
         }  
         // Integer[] arr = FillMas();
         // //PrintMas(arr);
